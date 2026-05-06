@@ -29,7 +29,7 @@ uvicorn app.main:app --reload
 Инициализация Alembic (уже выполнено):
 
 ```bash
-alembic upgrade head
+alembic upgrade head 
 ```
 
 Создание новой миграции:
